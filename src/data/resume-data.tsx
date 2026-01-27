@@ -9,10 +9,10 @@ export const RESUME_DATA: ResumeData = {
   summary: (
     <>
       Software engineer based in Moscow, Russia with 7+ years of experience
-      building production systems. Proficient in Go, PHP, JavaScript, TypeScript, C#, and Lua.
+      building scalable systems. Proficient in Go, PHP, JavaScript, TypeScript, C#, and Lua.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/nyamops?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/33228355?v=4",
   personalWebsiteUrl: "https://github.com/nyamops",
   contact: {
     email: "danila.schvets@gmail.com",
@@ -52,20 +52,21 @@ export const RESUME_DATA: ResumeData = {
           to 70,000 MAU.
           <ul className="list-inside list-disc">
             <li>
-              Built product from zero to production in 6 months, architecting entire
-              system and tech stack
+              Built the product from scratch and led architecture and technical
+              decisions from MVP to production
             </li>
             <li>
-              Scaled team from 2 to 6 engineers (backend, frontend, mobile, QA, DevOps)
-              with zero turnover
+              Delivered the first MVP in ~6 months starting from zero codebase,
+              infrastructure, or processes
             </li>
             <li>
-              Migrated infrastructure from bare metal to cloud, reducing costs and
-              improving scalability
+              Scaled the team from 2 to 6 people (backend, frontend, mobile, QA, DevOps),
+              with no turnover over 3 years and clear growth paths for engineers
             </li>
             <li>
-              Decomposed monolith into microservices, improving maintainability and
-              deployment speed
+              Migrated infrastructure from bare metal to cloud, reduced downtime,
+              set up CI/CD, and split a monolith into microservices to improve
+              reliability and feature delivery
             </li>
           </ul>
         </>
@@ -83,20 +84,16 @@ export const RESUME_DATA: ResumeData = {
           Technical lead during company's transition from monolith to microservices.
           <ul className="list-inside list-disc">
             <li>
-              Led delivery of company's first production microservice, making the team
-              first to release in new architecture
+              Delivered the team’s first production microservice during
+              the company’s early transition from a monolith
             </li>
             <li>
-              Co-led microservice development in partner team, transferring Symfony
-              expertise and best practices
+              Took responsibility for backend design decisions within
+              the team and ensured technical quality through reviews and discussions
             </li>
             <li>
-              Drove company-wide transition from PHP to Go through training programs
-              and practical adoption
-            </li>
-            <li>
-              Mentored team members on microservices architecture and modern development
-              practices
+              Improved knowledge sharing and technical alignment by organizing
+              meetups and encouraging participation in external engineering events
             </li>
           </ul>
         </>
@@ -114,20 +111,17 @@ export const RESUME_DATA: ResumeData = {
           Leading developer for internal HRM system serving thousands of employees.
           <ul className="list-inside list-disc">
             <li>
-              Designed and implemented chatbot for employee interactions, improving
-              accessibility and reducing support workload
+              Took ownership of several key features in the internal HRM system,
+              from design to production
             </li>
             <li>
-              Optimized notification and communication systems for reliable message
-              delivery to thousands of employees
+              Built a system for employee interactions, including notifications
+              and internal communication tools, used by thousands of employees,
+              improving accessibility and reducing manual support
             </li>
             <li>
-              Enhanced code quality through systematic refactoring, reviews, and
-              architectural improvements
-            </li>
-            <li>
-              Collaborated with team lead, QA, and cross-functional teams to deliver
-              reliable solutions
+              Raised overall code quality and maintainability through refactoring,
+              code reviews, and close collaboration with QA and other teams
             </li>
           </ul>
         </>
@@ -146,16 +140,12 @@ export const RESUME_DATA: ResumeData = {
           Grew from Junior to Middle Developer.
           <ul className="list-inside list-disc">
             <li>
-              Successfully contributed to migration from Drupal to Symfony, improving
-              flexibility and scalability
+              Contributed to the migration of the core product from Drupal to Symfony,
+              improving maintainability and performance of critical financial services
             </li>
             <li>
-              Optimized performance of critical backend services, reducing response
-              time and server load
-            </li>
-            <li>
-              Mentored newcomers and reduced team's bus factor through knowledge
-              sharing
+              Supported team development by mentoring junior engineers and sharing
+              knowledge across the team.
             </li>
           </ul>
         </>
