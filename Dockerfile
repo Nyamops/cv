@@ -7,7 +7,7 @@ RUN npm install -g pnpm@8
 
 COPY package.json pnpm-lock.yaml ./
 
-RUN pnpm install --frozen-lockfile
+RUN pnpm install --force
 
 COPY . .
 
@@ -24,7 +24,7 @@ COPY --from=BUILD_STAGE /app/package.json ./package.json
 COPY --from=BUILD_STAGE /app/node_modules ./node_modules
 COPY --from=BUILD_STAGE /app/.next ./.next
 COPY --from=BUILD_STAGE /app/public ./public
-
+COPY --from=BUILD_STAGE /app ./other_files
 EXPOSE 3000
 
 CMD ["pnpm", "start"]

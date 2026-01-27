@@ -1,237 +1,189 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Danila Shvets",
+  initials: "DS",
+  location: "Moscow, Russia",
+  locationLink: "https://www.google.com/maps/place/Moscow",
+  about: "Software Engineer with 7+ years of experience building scalable systems.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Software engineer based in Moscow, Russia with 7+ years of experience
+      building production systems. Proficient in Go, PHP, JavaScript, TypeScript, C#, and Lua.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/nyamops?v=4",
+  personalWebsiteUrl: "https://github.com/nyamops",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "danila.schvets@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/nyamops",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://linkedin.com/in/danila-shvets",
         icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Saratov State Technical University",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2015",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
-      description: (
-        <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
+      company: "Likvi",
+      link: "https://likvi.com/",
+      badges: ["Go", "PHP", "Microservices", "PostgreSQL"],
+      title: "Team Lead · CTO",
+      start: "2023",
       end: "2025",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Led technical development of worldwide car search aggregator from scratch
+          to 70,000 MAU.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Built product from zero to production in 6 months, architecting entire
+              system and tech stack
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Scaled team from 2 to 6 engineers (backend, frontend, mobile, QA, DevOps)
+              with zero turnover
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Migrated infrastructure from bare metal to cloud, reducing costs and
+              improving scalability
+            </li>
+            <li>
+              Decomposed monolith into microservices, improving maintainability and
+              deployment speed
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
+      company: "Eapteka",
+      link: "https://eapteka.ru/",
+      badges: ["Go", "PHP", "Microservices", "PostgreSQL"],
+      title: "Senior Software Engineer · Technical Lead",
+      start: "2022",
+      end: "2023",
+      description: (
+        <>
+          Technical lead during company's transition from monolith to microservices.
+          <ul className="list-inside list-disc">
+            <li>
+              Led delivery of company's first production microservice, making the team
+              first to release in new architecture
+            </li>
+            <li>
+              Co-led microservice development in partner team, transferring Symfony
+              expertise and best practices
+            </li>
+            <li>
+              Drove company-wide transition from PHP to Go through training programs
+              and practical adoption
+            </li>
+            <li>
+              Mentored team members on microservices architecture and modern development
+              practices
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Skyeng",
+      link: "https://skyeng.ru/",
+      badges: ["PHP", "PostgreSQL"],
+      title: "Senior Software Engineer",
       start: "2021",
-      end: "2024",
+      end: "2022",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Leading developer for internal HRM system serving thousands of employees.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Designed and implemented chatbot for employee interactions, improving
+              accessibility and reducing support workload
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Optimized notification and communication systems for reliable message
+              delivery to thousands of employees
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Enhanced code quality through systematic refactoring, reviews, and
+              architectural improvements
+            </li>
+            <li>
+              Collaborated with team lead, QA, and cross-functional teams to deliver
+              reliable solutions
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
+      company: "Tendertech",
+      link: "https://tendertech.ru/",
+      badges: ["PHP", "PostgreSQL"],
+      title: "Middle Software Engineer",
+      start: "2019",
+      end: "2020",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Contributed to fintech platform for bank guarantees, loans, and insurance.
+          Grew from Junior to Middle Developer.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Successfully contributed to migration from Drupal to Symfony, improving
+              flexibility and scalability
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Optimized performance of critical backend services, reducing response
+              time and server load
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Mentored newcomers and reduced team's bus factor through knowledge
+              sharing
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
+    "Go",
+    "PHP",
+    "Lua",
     "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
     "System Architecture",
     "Remote Team Leadership",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "GraphQL",
+    "Vertica",
+    "Cassandra",
+    "ClickHouse",
+    "Memcached",
+    "Redis",
+    "Apache Kafka",
+    "RabbitMQ",
+    "Docker",
+    "OpenTelemetry",
+    "Elasticsearch",
+    "Grafana",
   ],
-  projects: [
-    {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
-    },
-  ],
+  projects: [],
 } as const;

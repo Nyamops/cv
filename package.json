@@ -11,7 +11,8 @@
     "format": "biome format ./src",
     "format:fix": "biome format --write ./src",
     "check": "biome check ./src",
-    "check:fix": "biome check --write ./src"
+    "check:fix": "biome check --write ./src",
+    "export": "next export"
   },
   "dependencies": {
     "@apollo/server": "^4.10.2",
