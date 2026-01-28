@@ -44,7 +44,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://likvi.com/",
       badges: ["Go", "PHP", "Microservices", "PostgreSQL"],
       title: "Team Lead · CTO",
-      start: "2023",
+      start: "2022",
       end: "2025",
       description: (
         <>
