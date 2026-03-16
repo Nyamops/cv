@@ -46,7 +46,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Team Lead",
       start: "2026",
       end: "Present",
-      description: (),
+      description: "",
     },
     {
       company: "Likvi",
