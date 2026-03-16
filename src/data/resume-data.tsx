@@ -40,6 +40,15 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [
     {
+      company: "100points",
+      link: "https://100points.ru/",
+      badges: ["Go", "Microservices", "PostgreSQL"],
+      title: "Team Lead",
+      start: "2026",
+      end: "Present",
+      description: (),
+    },
+    {
       company: "Likvi",
       link: "https://likvi.com/",
       badges: ["Go", "PHP", "Microservices", "PostgreSQL"],
